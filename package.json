@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/logseq-sprocketc"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A UI library for Logseq",
   "author": "Logseq",
   "license": "MIT",
