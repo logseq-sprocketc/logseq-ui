@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/logseq-sprocketc"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A UI library for Logseq",
   "author": "Logseq",
   "license": "MIT",
@@ -28,6 +28,8 @@
     "@vitejs/plugin-react": "^2.1.0",
     "babel-loader": "^8.2.5",
     "postcss": "^8.4.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.2.3",
     "rollup-plugin-dts": "^5.0.0",
     "rollup-plugin-postcss": "^4.0.2",
@@ -36,12 +38,8 @@
     "typescript": "^4.8.4"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
