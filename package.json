@@ -7,7 +7,6 @@
   "description": "A UI library for Logseq",
   "author": "Logseq",
   "license": "MIT",
-  "private": true,
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@radix-ui/react-switch": "^1.0.1",
