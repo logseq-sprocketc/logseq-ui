@@ -63,9 +63,9 @@ export const Dark = create({
   barBg: '#023643',
 
   // Form colors
-  // inputBg: 'white',
-  // inputBorder: 'silver',
-  // inputTextColor: 'black',
+  inputBg: '#023643',
+  inputBorder: '#0e5263',
+  inputTextColor: '#dfdfdf',
 
   ...defaultThemeParams
 });
