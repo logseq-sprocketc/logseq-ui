@@ -1,7 +1,7 @@
 .ls-switch-root {
   all: unset;
-  width: 42px;
-  height: 25px;
+  width: 37px;
+  height: 20px;
   border-radius: 9999px;
   position: relative;
   background-color: black;
@@ -14,8 +14,8 @@
 
 .ls-switch-thumb {
   display: block;
-  width: 21px;
-  height: 21px;
+  width: 16px;
+  height: 16px;
   background-color: white;
   border-radius: 9999px;
   box-shadow: 0 2px 2px black;
