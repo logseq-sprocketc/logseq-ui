@@ -11,5 +11,5 @@ const Template: ComponentStory<typeof Switch> = (args) => <Switch {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  checked: true
+  defaultChecked: true
 }
