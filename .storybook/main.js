@@ -1,3 +1,4 @@
+
 module.exports = {
   stories: [{
     directory: '../src/stories/',
@@ -9,7 +10,18 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-a11y",
-    "storybook-dark-mode"
+    "storybook-dark-mode",
+    {
+      name: '@storybook/addon-postcss',
+      options: {
+        cssLoaderOptions: {
+          importLoaders: 1,
+        },
+        postcssLoaderOptions: {
+          implementation: require('postcss'),
+        },
+      },
+    }
   ],
   framework: "@storybook/react",
   core: {

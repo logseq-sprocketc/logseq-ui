@@ -1,7 +1,6 @@
 module.exports = {
-  plugins: {
-    tailwindcss: {
-      config: './tailwind.config.js'
-    }
-  }
+  plugins: [
+    require('postcss-nested'),
+    require('tailwindcss')
+  ]
 }

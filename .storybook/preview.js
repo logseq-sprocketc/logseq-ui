@@ -1,4 +1,5 @@
 import { Dark, Light} from './themes'
+import '../src/styles.css';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
